@@ -1,8 +1,10 @@
-import Animals.Animal;
-import Animals.Capybara;
-import Animals.Cat;
-import Animals.Dog;
-import Store.Petshop;
+package Animals;
+
+import Animals.Animals.Animal;
+import Animals.Animals.Capybara;
+import Animals.Animals.Cat;
+import Animals.Animals.Dog;
+import Animals.Store.Petshop;
 
 
 public class Main {
