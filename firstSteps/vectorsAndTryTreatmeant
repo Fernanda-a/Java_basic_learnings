@@ -1,0 +1,25 @@
+public class vectorsAndErrorTreatmeant {
+  public static void main(String[] args) {
+    // Declarando e inicializando um vetor com um tamanho especÃ­fico
+    int[] numbers = new int[3];
+    numbers[0] = 10;
+    numbers[1] = 20;
+    numbers[2] = 30;
+    
+    // Percorrendo todos os elementos usando um laÃ§o
+    for (int i = 0; i < numbers.length; i++) {
+      System.out.println("Element " + i + ": " + numbers[i]); 
+    }
+
+      // try, catch, finally - is something you want to run regardless of the outcome
+      try {
+          int resultado = dividir(10, 0);
+          System.out.println("Resultado: " + resultado);
+      } catch (ArithmeticException e) {
+          System.out.println("Erro: DivisÃ£o por zero.");
+      } finally {
+          System.out.println("Bloco finally sendo executado.");
+      }
+    }
+  }
+}
