@@ -28,9 +28,8 @@ public class Dog {
     }
     
 
-    
-    //methods
-    public String getName() { //get and set: this is capable of grabing the name
+    //getters and setters
+    public String getName() { //get and set: this is capable of grabbing the name
         return this.name;
     }
     public void setName (String name) {
@@ -73,6 +72,8 @@ public class Dog {
         return spiritState;
     }
 
+
+    //methods
     public void eat() {
     }
     public void bark() {
